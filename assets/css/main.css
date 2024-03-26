@@ -401,8 +401,8 @@ input, select, textarea {
 			}
 
 			#main .item.intro {
-				background-color: #d64760;
-				background-image: url("images/overlay.png");
+				background-image: linear-gradient(#2E3192,#1BFFFF);
+				/* background-image: url("images/overlay.png"); */
 				display: -moz-flex;
 				display: -webkit-flex;
 				display: -ms-flex;
@@ -428,6 +428,8 @@ input, select, textarea {
 					line-height: 1.5em;
 					margin: 0.5em 0 0 0;
 					opacity: 0.65;
+					font-weight: bold;
+					color: #000000;
 				}
 
 			#main .item.thumb {
